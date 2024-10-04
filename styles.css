@@ -7,86 +7,57 @@ body {
 
 header {
     background-color: #333;
-    color: white;
-    padding: 10px 0;
+    color: #fff;
+    padding: 10px 20px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 nav ul {
     list-style: none;
-    display: flex;
-    gap: 20px;
+    padding: 0;
 }
 
 nav ul li {
-    margin: 0;
+    display: inline;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
 }
 
 .home-banner {
-    text-align: center;
-    padding: 100px 0;
     background-color: #007bff;
-    color: white;
-}
-
-.home-banner h2 {
-    font-size: 2.5em;
-}
-
-.btn {
-    padding: 10px 20px;
-    background-color: #28a745;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-}
-
-.service-container {
-    display: flex;
-    justify-content: space-around;
+    color: #fff;
+    text-align: center;
     padding: 50px 0;
 }
 
-.service-item {
-    background-color: white;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-table {
-    width: 100%;
-    margin: 50px 0;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
-    padding: 10px;
-}
-
-table th {
-    background-color: #333;
+.btn {
+    background-color: #ff6347;
     color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 8px;
 }
 
 footer {
-    background-color: #333;
-    color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
 }
